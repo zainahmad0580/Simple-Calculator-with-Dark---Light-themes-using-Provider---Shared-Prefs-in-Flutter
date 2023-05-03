@@ -1,6 +1,6 @@
 # calculator
 
-A new Flutter project.
+A simple calculator made in flutter with dark & light theme modes using Provider for state management & shared preferences to save user's preferred theme.
 
 ## Getting Started
 
