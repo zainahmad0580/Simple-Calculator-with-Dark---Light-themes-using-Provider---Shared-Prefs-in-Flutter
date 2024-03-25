@@ -51,9 +51,7 @@ class HomeScreen extends StatelessWidget {
                     onPress: () => inputProvider.clear(),
                     buttonColor: AppColors.red),
                 RoundButton(
-                    title: '+/-',
-                    onPress: () => inputProvider.setInput('+/-'),
-                    buttonColor: AppColors.grey),
+                    title: '', onPress: () {}, buttonColor: AppColors.grey),
                 RoundButton(
                     title: '%',
                     onPress: () => inputProvider.setInput('%'),
