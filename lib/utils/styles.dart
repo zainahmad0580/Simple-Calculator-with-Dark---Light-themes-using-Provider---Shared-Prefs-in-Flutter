@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
@@ -22,7 +21,7 @@ abstract class Styles {
       canvasColor: isDarkTheme ? AppColors.black : AppColors.white,
       brightness: isDarkTheme ? Brightness.dark : Brightness.light,
       buttonTheme: Theme.of(context).buttonTheme.copyWith(
-          colorScheme: isDarkTheme ? ColorScheme.dark() : ColorScheme.light()),
+          colorScheme: isDarkTheme ? const ColorScheme.dark() : const ColorScheme.light()),
     );
   }
 }

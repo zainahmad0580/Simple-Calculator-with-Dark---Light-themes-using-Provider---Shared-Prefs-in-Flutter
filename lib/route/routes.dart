@@ -7,7 +7,7 @@ class Routes {
     switch (settings.name) {
       case RouteNames.home:
         return MaterialPageRoute(
-            builder: (BuildContext context) => HomeScreen());
+            builder: (BuildContext context) => const HomeScreen());
       default:
         return MaterialPageRoute(builder: (_) {
           return const Scaffold(

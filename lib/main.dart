@@ -1,6 +1,5 @@
 import 'package:calculator/provider/dark_theme_provider.dart';
 import 'package:calculator/provider/input_provider.dart';
-import 'package:calculator/utils/app_colors.dart';
 import 'package:calculator/route/route_names.dart';
 import 'package:calculator/route/routes.dart';
 import 'package:calculator/utils/styles.dart';

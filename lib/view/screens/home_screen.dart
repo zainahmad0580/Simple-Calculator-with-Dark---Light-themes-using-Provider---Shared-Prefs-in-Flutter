@@ -1,6 +1,5 @@
 import 'package:calculator/provider/dark_theme_provider.dart';
 import 'package:calculator/utils/app_colors.dart';
-import 'package:calculator/utils/dark_theme_pref.dart';
 import 'package:calculator/utils/styles.dart';
 import 'package:calculator/view/widgets/round_button.dart';
 import 'package:flutter/material.dart';
