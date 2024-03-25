@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> {
         builder: (context, value, child) {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'Calculator',
+            title: 'Simple Calculator',
             theme: Styles.themeData(themeChangeProvider.darkTheme, context),
             initialRoute: RouteNames.home,
             onGenerateRoute: Routes.generateRoute,
